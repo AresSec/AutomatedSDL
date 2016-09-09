@@ -39,7 +39,7 @@
   * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 * Manual Analysis
  * Security Unit Tests
- * Pentests
+ 
 
 ****
 **Comunication/Tracking**
@@ -47,14 +47,23 @@
 * Jira
 
 ****
-**Functional Testing?**
+**Functional Testing**
 * Prevention / Templates
 * Static Analysis
 * Dynamic Analysis
 * Manual Analysis
+ * Test MisuseCases
 
 ****
-**Operation?**
+**GoLive Preperation**
+* Prevention / Templates
+* Static Analysis
+* Dynamic Analysis
+* Manual Analysis
+ * Pentests
+
+****
+**Operation**
 * Prevention / Templates
 * Static Analysis
 * Dynamic Analysis
