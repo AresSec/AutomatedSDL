@@ -2,13 +2,13 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: SecurityRAT
+topnav_title: AutomatedSDL
 # this appears on the top navigation bar next to the home button
 
-site_title: SecurityRAT
+site_title: AutomatedSDL
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: SecurityRAT
+company_name: AutomatedSDL
 # this appears in the footer
 
 github_editme_path: 
@@ -28,9 +28,9 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: SecurityRAT Documentation
+feedback_subject_line: AutomatedSDL Documentation
 
-feedback_email: dan.kefer@gmail.com
+feedback_email: reuter.rene@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -101,4 +101,4 @@ description: "Documentation of the SecurityRAT project."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://securityrat.github.io
+url: https://aressec.github.io
