@@ -6,6 +6,7 @@ sidebar: home_sidebar
 permalink: index.html
 #summary: ou get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
+
 **Requirements**
 * Prevention / Templates
  * https://github.com/SecurityRAT/SecurityRAT
@@ -15,6 +16,7 @@ permalink: index.html
  * MisuseCases
 
 ****
+
 **Design**
 * Prevention / Templates
  * Architecture Blueprints
@@ -27,6 +29,7 @@ permalink: index.html
  * Security Concepts
 
 ****
+
 **Coding**
 * Prevention / Templates
  * Standard Frameworks
@@ -50,11 +53,13 @@ permalink: index.html
  
 
 ****
+
 **Comunication/Tracking**
 * ThreadFix
 * Jira
 
 ****
+
 **Functional Testing**
 * Prevention / Templates
 * Static Analysis
@@ -63,6 +68,7 @@ permalink: index.html
  * Test MisuseCases
 
 ****
+
 **GoLive Preperation**
 * Prevention / Templates
 * Static Analysis
@@ -71,6 +77,7 @@ permalink: index.html
  * Pentests
 
 ****
+
 **Operation**
 * Prevention / Templates
 * Static Analysis
@@ -78,4 +85,3 @@ permalink: index.html
  * Qualys
  * Nessus
 * Manual Analysis
-

@@ -55,3 +55,12 @@ entries:
     - title: Manual Analysis
       url: /coding_manual.html
       output: web
+  - title: Communication / Tracking
+    output: web
+    folderitems:
+    - title: ThreadFix
+      url: /comm_thread.html
+      output: web
+    - title: Jira
+      url: /comm_jira.html
+      output: web
