@@ -1,0 +1,39 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: SecurityRAT
+  levels: one
+  folders:
+  - title: Introduction
+    output: web
+    folderitems:
+    - title: What is SecurityRAT
+      url: /index.html
+      output: web
+    - title: Requirement Schema
+      url: /intro_requirements.html
+      output: web
+  - title: Deployment Options
+    output: web
+    folderitems:
+    - title: Docker Image
+      url: /depl_docker.html
+      output: web
+    - title: Production
+      url: /depl_production.html
+      output: web
+    - title: Development
+      url: /depl_development.html
+      output: web
+  - title: Integration
+    output: web
+    folderitems:
+      - title: Options
+        url: int_options.html
+        output: web
+      - title: CAS
+        url: int_cas.html
+        output: web
+      - title: JIRA
+        url: int_jira.html
+        output: web
