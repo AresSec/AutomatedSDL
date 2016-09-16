@@ -1,7 +1,7 @@
 ---
 title: Prevention / Templates
 #keywords: sample
-summary: "This setup is recommended if you want to customize or further develop the SecurityRAT tool."
+#summary: ""
 sidebar: home_sidebar
 permalink: req_prev.html
 #simple_map: true
@@ -9,5 +9,8 @@ permalink: req_prev.html
 #box_number: 1
 folder: product2
 ---
+
+## SecurityRAT
+[SecurityRAT](https://github.com/SecurityRAT/SecurityRAT)
 
 {% include links.html %}

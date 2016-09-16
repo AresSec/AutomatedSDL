@@ -1,7 +1,7 @@
 ---
 title: Static Analysis
 #keywords: sample
-#summary: "This setup is recommended if you want to customize or further develop the SecurityRAT tool."
+#summary: ""
 sidebar: home_sidebar
 permalink: design_static.html
 #simple_map: true
@@ -9,5 +9,9 @@ permalink: design_static.html
 #box_number: 1
 folder: product2
 ---
+
+## Architecture Analysis
+[MontiSecArc](https://git.rwth-aachen.de/monticore/MontiSecArc)
+[Microsoft Threat Modeling Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49168)
 
 {% include links.html %}

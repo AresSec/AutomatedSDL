@@ -1,7 +1,7 @@
 ---
 title: Manual Analysis
 #keywords: sample
-#summary: "This setup is recommended if you want to customize or further develop the SecurityRAT tool."
+#summary: ""
 sidebar: home_sidebar
 permalink: req_manual.html
 #simple_map: true
@@ -10,4 +10,5 @@ permalink: req_manual.html
 folder: product2
 ---
 
+## MisuseCases
 {% include links.html %}
