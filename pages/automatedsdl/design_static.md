@@ -1,9 +1,9 @@
 ---
-title: Prevention / Templates
+title: Static Analysis
 #keywords: sample
-summary: "This setup is recommended if you want to customize or further develop the SecurityRAT tool."
+#summary: "This setup is recommended if you want to customize or further develop the SecurityRAT tool."
 sidebar: home_sidebar
-permalink: req_prev.html
+permalink: design_static.html
 #simple_map: true
 #map_name: usermap
 #box_number: 1
