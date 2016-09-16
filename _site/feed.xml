@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description>Documentation of the SecurityRAT project.</description>
+        <link>https://securityrat.github.io/</link>
+        <atom:link href="https://securityrat.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 16 Sep 2016 15:46:34 +0200</pubDate>
+        <lastBuildDate>Fri, 16 Sep 2016 15:46:34 +0200</lastBuildDate>
+        <generator>Jekyll v3.0.3</generator>
+        
+        <item>
+            <title>Release 1.3.0</title>
+            <description>&lt;p&gt;The main new features are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;you can browse requirements separately&lt;/li&gt;
+  &lt;li&gt;enhancements to the JIRA integration - especially you can now choose and fill any optional fields directly during the ticket creation&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+            <pubDate>Sat, 20 Aug 2016 00:00:00 +0200</pubDate>
+            <link>https://securityrat.github.io/release-1.3.0.html</link>
+            <guid isPermaLink="true">https://securityrat.github.io/release-1.3.0.html</guid>
+            
+            <category>releases</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Release 1.2.0</title>
+            <description>&lt;p&gt;The main new features are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;central CAS logout&lt;/li&gt;
+  &lt;li&gt;when using SecurityRAT’s own user management, you can decide whether you want to allow users register themselves, or whether only the administrator can create new users by editing the &lt;code class=&quot;highlighter-rouge&quot;&gt;application.yml&lt;/code&gt;configuration file:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;authentication:
+  type: FORM 
+  registration: false # set to true if anonymous users should be able to register accounts themselves
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+            <pubDate>Thu, 11 Aug 2016 00:00:00 +0200</pubDate>
+            <link>https://securityrat.github.io/release-1.2.0.html</link>
+            <guid isPermaLink="true">https://securityrat.github.io/release-1.2.0.html</guid>
+            
+            <category>releases</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Release 1.1.0</title>
+            <description>&lt;p&gt;The main new features are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;own user management (before, only CAS authentication was supported)&lt;/li&gt;
+  &lt;li&gt;various bugfixes&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+            <pubDate>Thu, 04 Aug 2016 00:00:00 +0200</pubDate>
+            <link>https://securityrat.github.io/release-1.1.0.html</link>
+            <guid isPermaLink="true">https://securityrat.github.io/release-1.1.0.html</guid>
+            
+            <category>releases</category>
+            
+            
+        </item>
+        
+    </channel>
+</rss>

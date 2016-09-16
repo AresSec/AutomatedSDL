@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="In order to be able to customize the default requirement set or even to create a new one from scratch according to your needs, this chapter will explain all ...">
+<meta name="keywords" content=" ">
+<title>Requirement Data Schema | SecurityRAT</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="https://securityrat.github.iofeed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> SecurityRAT</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="news">News</a></li>
+                
+                
+                
+                <li><a href="about">About</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+			<li><a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:dan.kefer@gmail.com?subject=SecurityRAT Documentation f eedback&body=I have some feedback about the Requirement Data Schema page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a><li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Requirement Data Schema">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle"> </li>
+    
+    
+    
+    <li>
+        <a href="#">Introduction</a>
+        <ul>
+            
+            
+            
+            <li><a href="index.html">What is SecurityRAT</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="intro_requirements.html">Requirement Schema</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Deployment Options</a>
+        <ul>
+            
+            
+            
+            <li><a href="depl_docker.html">Docker Image</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="depl_production.html">Production</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="depl_development.html">Development</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Integration</a>
+        <ul>
+            
+            
+            
+            <li><a href="int_options.html">Options</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="int_cas.html">CAS</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="int_jira.html">JIRA</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+    <!-- Content Column -->
+    <div class="col-md-9">
+        <div class="post-header">
+   <h1 class="post-title-main">Requirement Data Schema</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">In order to be able to customize the default requirement set or even to create a new one from scratch according to your needs, this chapter will explain all entities which form a requirement.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+    
+
+    
+
+    
+
+  <h2 id="requirement-skeletons-and-requirement-categories">Requirement Skeletons and Requirement Categories</h2>
+
+<p>As the name indicates, the Requirement Skeleton presents something like a core of a requirement and is a central part of the schema. An example could be “Implement brute-force protection”.</p>
+
+<p>As there will probably be quite a big number of requirements, it is sensible to group them into categories (e.g. <em>Authentication</em>, <em>Session Management</em>, etc.).</p>
+
+<h2 id="optional-columns-and-optional-column-values">Optional Columns and Optional Column Values</h2>
+
+<p>A requirement can come with many extra information which you might not want to show in all scenarios or might not be relevant for every target. Think about examples like “Best practise for implementation of this requirement”, “Motivation why this requirement is important” or “How to test a successful implementation of the requirement”. These would be the Optional Columns.</p>
+
+<p>Every <em>Optional Column</em> contains <em>Optional Column Values</em> which are linked to a particular <em>Requirement Skeleton</em>.</p>
+
+<p>Example could be:</p>
+
+<ul>
+  <li>Optional Column: <em>Motivation</em></li>
+  <li>Optional Column content for Brute Force Protection: <em>If you omit brute force protection, attacker could use a script guessing passwords of the system users in order to take over their identities.</em></li>
+</ul>
+
+<h2 id="status-columns-and-status-column-values">Status Columns and Status Column Values</h2>
+
+<p>While working with you first requirement set, you will probably find out that on an artifact level, it will be handy to specify some extra information for every requirement, even if it is just an indication whether the requirement will be fulfilled or not in the easiest case.</p>
+
+<p>Status Columns are of two types:</p>
+
+<ul>
+  <li>eval: In this case, this Status Column is linked to Status Column Values. An example could be the Status Column “Implemented” and respective values “Yes” and “No”.</li>
+  <li>text: Free text, e.g comment explaining the implementation of the requirement</li>
+</ul>
+
+<h2 id="implementation-type">Implementation Type</h2>
+
+<p>Implementation type enables you to specify:</p>
+
+<ul>
+  <li>which requirement skeletons are relevant for this implementation type</li>
+  <li>which optional and status column are relevant</li>
+</ul>
+
+<p>In the default requiremment set, there are three implementation types:</p>
+
+<ul>
+  <li><strong>internal:</strong> when the artifact is developed and operated internally</li>
+  <li><strong>exernal:</strong> when the artifact is developed by an external company, but still operated internally</li>
+  <li><strong>cloud:</strong> when the artifact is both developed and operated externally</li>
+</ul>
+
+<p>It contains the following attributes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Explanation</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short Name</td>
+      <td>Short ID of the requirement.</td>
+      <td><em>AU-01</em> (for the first requirement belonging to the <em>Authentication</em> category</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Universally valid text of the requirement.</td>
+      <td><em>The system has to be protected against brute-force attacks.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="collection-category-and-collection-instance">Collection Category and Collection Instance</h2>
+
+<p>Collection Category is a security relevant parameter which has an impact on which requirement skeletons are relevant. Collection Instance is then a particular value of this parameter. These are the options which you specify in the very beginning when working with SecurityRAT in order to render a relevant set of requirements.</p>
+
+<p>The following table shows some examples from the default requirement set:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Collection Category</th>
+      <th>Collection Instances</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criticality</td>
+      <td>Low, Medium, High</td>
+    </tr>
+    <tr>
+      <td>Externally Reachable</td>
+      <td>Yes, No</td>
+    </tr>
+    <tr>
+      <td>Authentication</td>
+      <td>Single Sign-On Client, Local, None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tag-category-and-tag-instance">Tag Category and Tag Instance</h2>
+
+<p>Tag Category and Tag Instance work in a similar way as Collections. The biggest difference is that Tags are never persisted; they are used for filtering requirements in specific situation, e.g. you want to have an overview of which requirements are relevant for a particular project phase, which are supposed to be tested manually etc.</p>
+
+<p>The following table shows some examples from the default requirement set:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag Category</th>
+      <th>Tag Instances</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Requirement Type</td>
+      <td>Technical, Lifecycle</td>
+    </tr>
+    <tr>
+      <td>Project Phase</td>
+      <td>Initiation, Design, Implementation, Rollout</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="alternative-sets-and-alternative-instances">Alternative Sets and Alternative Instances</h2>
+
+<p>Alternative Sets are bound to Option Columns and are supposed to enhance their content for particulalar requirements using Alternative Instances in specific situation. Think about an option column “Further specification” - if you’re developing the application in a certain language, e.g. JAVA it could be reasonable to show a coding pattern or information which library you should be using.</p>
+
+<p>In this way, you have the option to say: “Ok, give me all extra information you have for if I’m developing in JAVA, PHP, …”</p>
+
+<p>Alternative Sets and Instances are not currently used in the default requirement set.</p>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2016 SecurityRAT. All rights reserved. <br />
+ Site last generated: Sep 16, 2016 <br />
+<!--<p><img src="images/company_logo.png" alt="Company logo"/></p>-->
+                </div>
+            </div>
+</footer>
+
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+
+</body>
+
+</html>
