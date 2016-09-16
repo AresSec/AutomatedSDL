@@ -40,3 +40,18 @@ entries:
     - title: Manual Analysis
       url: /design_manual.html
       output: web
+  - title: Coding
+    output: web
+    folderitems:
+    - title: Prevention / Templates
+      url: /coding_prev.html
+      output: web
+    - title: Static Analysis
+      url: /coding_static.html
+      output: web
+    - title: Dynamic Analysis
+      url: /coding_dynamic.html
+      output: web
+    - title: Manual Analysis
+      url: /coding_manual.html
+      output: web
