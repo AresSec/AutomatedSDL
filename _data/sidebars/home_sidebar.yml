@@ -1,39 +1,42 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: SecurityRAT
+- title: AutomatedSDL
   levels: one
   folders:
   - title: Introduction
     output: web
     folderitems:
-    - title: What is SecurityRAT
+    - title: What is AutomatedSDL
       url: /index.html
       output: web
-    - title: Requirement Schema
-      url: /intro_requirements.html
-      output: web
-  - title: Deployment Options
+  - title: Requirements
     output: web
     folderitems:
-    - title: Docker Image
-      url: /depl_docker.html
+    - title: Prevention / Templates
+      url: /req_prev.html
       output: web
-    - title: Production
-      url: /depl_production.html
+    - title: Static Analysis
+      url: /req_static.html
       output: web
-    - title: Development
-      url: /depl_development.html
+    - title: Dynamic Analysis
+      url: /req_dynamic.html
       output: web
-  - title: Integration
+    - title: Manual Analysis
+      url: /req_manual.html
+      output: web
+  - title: Design
     output: web
     folderitems:
-      - title: Options
-        url: int_options.html
-        output: web
-      - title: CAS
-        url: int_cas.html
-        output: web
-      - title: JIRA
-        url: int_jira.html
-        output: web
+    - title: Prevention / Templates
+      url: /design_prev.html
+      output: web
+    - title: Static Analysis
+      url: /design_static.html
+      output: web
+    - title: Dynamic Analysis
+      url: /design_dynamic.html
+      output: web
+    - title: Manual Analysis
+      url: /design_manual.html
+      output: web
