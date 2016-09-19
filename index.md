@@ -7,7 +7,7 @@ permalink: index.html
 #summary: ou get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
 
-This project aims to document and give best practises for everything regarding the Secure Software Development Lifecycle (SSDL). All different phases of the SSDL are covered:
+This project aims to document and give best practises for everything regarding automation of the Secure Software Development Lifecycle (SSDL). All different phases of the SSDL are covered:
 
 * Requirements
 * Design
