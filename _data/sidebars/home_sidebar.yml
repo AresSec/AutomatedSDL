@@ -64,3 +64,18 @@ entries:
     - title: Jira
       url: /comm_jira.html
       output: web
+  - title: Functional Testing
+    output: web
+    folderitems:
+    - title: Prevention / Templates
+      url: /func_prev.html
+      output: web
+    - title: Static Analysis
+      url: /func_static.html
+      output: web
+    - title: Dynamic Analysis
+      url: /func_dynamic.html
+      output: web
+    - title: Manual Analysis
+      url: /func_manual.html
+      output: web
