@@ -111,4 +111,7 @@ entries:
       output: web
   - title: Presentations
     output: web
-    url: /presentations.html
+    folderitems:
+    - title: AutomatedSDL
+      url: /presentations.html
+      output: web
