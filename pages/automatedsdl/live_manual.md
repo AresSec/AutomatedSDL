@@ -10,5 +10,6 @@ permalink: live_manual.html
 folder: product2
 ---
 
+* Penetration Tests
 
 {% include links.html %}
