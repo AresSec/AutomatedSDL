@@ -95,9 +95,34 @@ defaults:
   -
     scope:
       path: ""
-      type: "slides"
+      #type: "slides"
     values:
       layout: "slides"
+      reveal:
+        controls: true
+        progress: true
+        slideNumber: false
+        history: false
+        keyboard: true
+        overview: true
+        center: true
+        touch: true
+        loop: false
+        rtl: false
+        fragments: true
+        embedded: false
+        autoSlide: 0
+        autoSlideStoppable: true
+        mouseWheel: false
+        hideAddressBar: true
+        previewLinks: false
+        transition: default
+        transitionSpeed: default
+        backgroundTransition: default
+        viewDistance: 3
+        parallaxBackgroundImage:
+        parallaxBackgroundSize:
+        theme: default
 
 # these are defaults used for the frontmatter for these file types
 
