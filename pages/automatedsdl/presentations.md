@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: presentations.html
 ---
 <ul>
   {% for slide in slides %}
