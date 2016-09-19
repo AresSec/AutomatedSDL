@@ -2,7 +2,7 @@
 layout: default
 permalink: presentations.html
 ---
-<!--<ul>
+<ul>
   {% for slide in slides %}
   <li>
     <h1>
@@ -13,10 +13,4 @@ permalink: presentations.html
     <p>{{ slide.date | date: }} - {{ slide.description }}</p>
   </li>
   {% endfor %}
-</ul>--!>
-
-{% for slide in slides reversed %} 
-<section>
-{{ slide.content }}
-</section>
-{% endfor %}
+</ul>
