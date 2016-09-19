@@ -1,12 +1,6 @@
 ---
 title: Test Slides
-description: Test Slides at the Lorem Ipsum Event October 2001
-theme: night
-date: 2016-1-05
-reveal_config:
-  controls: true
-  progress: false
-  transition: slide
+layout: slides
 ---
 <section>
   <h1>Slide 1</h1>
