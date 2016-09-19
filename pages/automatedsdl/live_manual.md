@@ -10,6 +10,6 @@ permalink: func_manual.html
 folder: product2
 ---
 
-* Test MisuseCases
+* Penetration Tests
 
 {% include links.html %}

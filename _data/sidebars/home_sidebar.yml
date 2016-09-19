@@ -79,3 +79,18 @@ entries:
     - title: Manual Analysis
       url: /func_manual.html
       output: web
+  - title: GoLive Preperation
+    output: web
+    folderitems:
+    - title: Prevention / Templates
+      url: /live_prev.html
+      output: web
+    - title: Static Analysis
+      url: /live_static.html
+      output: web
+    - title: Dynamic Analysis
+      url: /live_dynamic.html
+      output: web
+    - title: Manual Analysis
+      url: /live_manual.html
+      output: web
