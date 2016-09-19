@@ -97,7 +97,7 @@ defaults:
       path: ""
       #type: "slides"
     values:
-      layout: "slides"
+      layout: "slide"
       reveal:
         controls: true
         progress: true
