@@ -58,6 +58,7 @@ collections:
     output: false
   slides:
     output: true
+    permalink: /:collection/:path
 
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
@@ -90,6 +91,13 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
+  
+   -
+    scope:
+      path: ""
+      type: "slides"
+    values:
+      layout: "slides"
 
 # these are defaults used for the frontmatter for these file types
 

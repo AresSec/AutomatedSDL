@@ -1,17 +1,15 @@
 ---
-layout: slides
-title: Jekyll and reveal.js
-description: A presentation slide for how to use reveal.js in Jekyll
-permalink: presentations.html
-theme: white
-transition: slide
+layout: default
 ---
-
-
-{% for slide in site.slides %}
-<section>
-    {{ slide.content }}
-</section>
-{% endfor %}
-
-
+<ul>
+  {% for slide in slides %}
+  <li>
+    <h1>
+      <a href="{{ slide.url | prepend: site.baseurl | remove: 'index' }}">
+        {{ slide.title }}
+      </a>
+    </h1>
+    <p>{{ slide.date | date: }} - {{ slide.description }}</p>
+  </li>
+  {% endfor %}
+</ul>
