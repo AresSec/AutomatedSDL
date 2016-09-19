@@ -28,6 +28,7 @@ For getting more information about the tool in 40 minutes, you can watch this vi
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/6N__PgMSfYU" frameborder="0" allowfullscreen></iframe></center>
 
+
 The tool itself is available on GitHub: [SecurityRAT](https://github.com/SecurityRAT/SecurityRAT) and the full documentation can be found on GitHub Pages: [SecurityRAT Documentation](https://securityrat.github.io/)
 
 {% include links.html %}
