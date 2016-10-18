@@ -1,3 +1,7 @@
-## Jekyll Documentation theme
+# AutomatedSDL
 
-Build the site to see the instructions for using it. Or just go here: [http://idratherbewriting.com/documentation-theme-jekyll/](http://idratherbewriting.com/documentation-theme-jekyll/)
+Automation of anything regarding Secure Development Lifecycle https://aressec.github.io/AutomatedSDL
+
+# License
+
+This project is distributed under the Apache license, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
