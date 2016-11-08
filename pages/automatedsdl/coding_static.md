@@ -12,6 +12,7 @@ folder: product2
 
 * Dependency Management
 * [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check)
+* [Black Duck](https://www.blackducksoftware.com/de/black-duck-home)
 * Static Code Analysis
 * [Find Security Bugs](http://find-sec-bugs.github.io/)
 
