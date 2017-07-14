@@ -14,6 +14,6 @@ folder: product2
 * Arachni
 * Tests + Scanner
 * Burp
-* [OWASP Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+* [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 
 {% include links.html %}
